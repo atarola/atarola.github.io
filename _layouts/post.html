@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article>
+    <div class="title">
+        <h2>{{ page.title }}</h2>
+        <span class="subtitle">
+            {{ page.date | date_to_long_string }} -
+            tags: [{{ page.tags | join: ", "  }}]
+        </span>
+    </div>
+
+    {{ content }}
+</article>

@@ -3,10 +3,31 @@
 
 <head>
     <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 </head>
 
 <body>
-    {{ content }}
-</body>
+    <main>
+        {{ content }}
+    </main>
 
+    <nav>
+        <header>
+            <h1>Yelling at Clouds</h1>
+            <p>You can do anything given enough time and beer.</p>
+        </header>
+
+        <hr />
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/posts">All Posts</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+
+        <hr />
+    </nav>
+</body>
 </html>
