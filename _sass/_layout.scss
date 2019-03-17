@@ -20,6 +20,14 @@ nav {
     text-align: center;
     padding-bottom: 20px;
 
+    img {
+      border-radius: 50%;
+      width: 120px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border: 1px solid black;
+    }
+
     a {
         color: $platinum;
     }
@@ -30,6 +38,7 @@ nav {
 
     h1 {
         margin-bottom: 0;
+        margin-top: 0;
     }
 
     hr {
@@ -38,7 +47,6 @@ nav {
     }
 
     p {
-        margin: 0 0 5px;
         font-size: 10px;
         color: #ccc;
     }
@@ -56,6 +64,10 @@ nav {
         text-align: center;
         padding: 10px;
         margin: 0;
+
+        &:last-child {
+            padding-bottom: 0px;
+        }
     }
 }
 
