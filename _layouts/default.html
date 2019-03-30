@@ -1,35 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
-<head>
-    <title>{{ page.title }}</title>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
-</head>
+{% include head.html %}
 
-<body>
-    <main>
+<body class="theme-base-09">
+    {% include sidebar.html %}
+    <div class="content container">
         {{ content }}
-    </main>
-
-    <nav>
-        <header>
-            <img src="{{ '/assets/img/face.jpg' | relative_url }}"
-                alt="My Face" />
-            <h1>Yelling at Clouds</h1>
-            <p>You can do anything given enough time and beer.</p>
-        </header>
-
-        <hr />
-
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/posts">All Posts</a></li>
-            <li><a href="/about">About</a></li>
-        </ul>
-
-        <hr />
-    </nav>
+    </div>
 </body>
 </html>
