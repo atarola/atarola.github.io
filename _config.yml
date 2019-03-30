@@ -1,11 +1,12 @@
 title: Yelling at Clouds
+description: We can do anything given enough time and beer.
 
 email: anthony.tarola@gmail.com
 twitter_username: atarola
 github_username: atarola
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-paginate

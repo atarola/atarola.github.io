@@ -1,6 +1,12 @@
 
 h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
     font-family: "Arvo", serif;
+}
+
+h2 {
+    margin-top: 2rem;
+    border-bottom: 1px solid #ccc;
 }
 
 html {
@@ -10,6 +16,29 @@ html {
 .sidebar-about h1 {
   font-family: "Arvo", serif;
   font-size: 2rem;
+}
+
+.sidebar-about img {
+  border-radius: 50%;
+  width: 120px;
+  margin: 1rem auto;
+  border: 1px solid black;
+}
+
+.social {
+    margin-bottom: 1rem;
+}
+
+.social path {
+    fill: white;
+}
+
+.social a {
+    margin-right: 5px;
+}
+
+.related {
+    border-top: 2px dashed #eee;
 }
 
 @media (min-width: 48em) {
