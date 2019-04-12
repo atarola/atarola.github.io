@@ -33,4 +33,3 @@ For my first project, I'm going to do a "Delicious-like" Social Bookmarking Site
 
 - [Original Thing a Week](https://www.jonathancoulton.com/primer/thing-a-week/)
 - [Delicious Social Bookmarking](https://en.wikipedia.org/wiki/Delicious_(website))
-- [Hexcrawl](https://thealexandrian.net/wordpress/15156/roleplaying-games/game-structures-part-6-hexcrawls)
